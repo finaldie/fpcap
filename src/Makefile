@@ -1,8 +1,8 @@
 include ../.Makefile.inc
 
 SKULL_LIBS = \
-	     -lflist \
-	     -lfhash
+	     -lfhash \
+	     -lpcap
 
 # output
 STATIC_LIB = libfpcap_conv.a
